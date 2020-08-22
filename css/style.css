@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.menu-bar{
+	text-align: center;
+	height: 80px;
+	background-color: lightgrey;
+	line-height: 80px;
+}
+.menu-bar ul li {
+	display: inline-block;
+}
+.menu-bar ul li a{
+	font-size: 23px;
+	color: darkblue;
+	font-weight: 900;
+	margin: 0px 22px;
+	transition: 0.5s;
+
+}
+.menu-bar ul li a:hover{
+	color: blue;
+	font-size: 25px;
+	transition: 0.5s;
+}
+
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner h1{
+	font-size: 52px;
+	text-align: center;
+	color: darkblue;
+}
+.social-media{
+	text-align: center;
+	margin-top: 10px;
+}
+.social-media ul li{
+	display: inline-block;
+
+}
+.social-media ul li a i{
+	font-size: 28px;
+	height: 80px;
+	width: 80px;
+	background: lightgrey;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 80px;
+	color: darkblue;
+	margin: 0px 10px;
+	
+}
+.social-media ul li a i:hover{
+	background-color: skyblue;
+	transform: scale(0.8);
+
+
+}
