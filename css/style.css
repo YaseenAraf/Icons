@@ -19,13 +19,13 @@ a{
 	color: darkblue;
 	font-weight: 900;
 	margin: 0px 22px;
-	transition: 0.5s;
+	transition: 1s;
 
 }
 .menu-bar ul li a:hover{
-	color: blue;
+	color: red;
 	font-size: 25px;
-	transition: 0.5s;
+	transition: 1s;
 }
 
 .banner{
@@ -58,11 +58,13 @@ a{
 	line-height: 80px;
 	color: darkblue;
 	margin: 0px 10px;
+	transition: 1s;
 	
 }
 .social-media ul li a i:hover{
 	background-color: skyblue;
 	transform: scale(0.8);
+	transition: 1s;
 
 
 }
